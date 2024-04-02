@@ -1,0 +1,15 @@
+boosts:
+  # Example "x2"
+  x2:
+    name: "BoostX2"
+    multiplier: 2.0
+    duration: 20 # Duration in seconds.
+    price: 100.0 # Price in your server currency.
+
+  # Example "x4"
+  x4:
+    name: "BoostX4"
+    multiplier: 4.0
+    duration: 20 # Duration in seconds.
+    price: 200.0 # Price in your server currency.
+

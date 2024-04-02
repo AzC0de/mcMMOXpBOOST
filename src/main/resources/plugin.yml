@@ -1,0 +1,19 @@
+name: AzXPBoost
+version: 1.0.0
+author: AzCode
+main: us.azcode.AzmcMMOxp.AzXPBoost
+api-version: 1.13
+depend:
+  - mcMMO
+  - Vault
+commands:
+  mcm:
+    description: Control mcMMO experience boosts.
+    usage: /<command> <buy|list|claim> [type]
+  mcba:
+    description: Manage mcMMO experience boosts.
+    usage: /<command> <give|reload|view> [args]
+permissions:
+  mcb.admin:
+    description: Allows access to boost management commands.
+    default: op
